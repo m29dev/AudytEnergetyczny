@@ -118,6 +118,7 @@ h1 {
     text-align: center;
     margin: 0px;
     padding: 0px;
+    font-size: 6vw;
 }
 
 .btn-buy {
@@ -757,6 +758,10 @@ img {
     transform: translate(-50%, -50%); */
 }
 
+.space-new {
+    margin-bottom: 200px;
+}
+
 .msg-after {
     justify-content: center;
 }
@@ -855,14 +860,6 @@ img {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-
-    .navbar-classic {
-        display: none;
-    }
-
-    .navbar-mobile {
-        display: flex;
     }
 
     .content {
@@ -993,4 +990,41 @@ img {
         height: 90%;
         width: 90%;
     }
+
+
+
+
+
+
+
+
+    /* NEW */
+    .navbar-classic {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+    }
+
+    .btn-buy {
+        display: none;
+    }
+
+    .learn-desc-box {
+        margin: 0px;
+        justify-content: center;
+        margin: 0 20px 0 20px;
+    }
+
+    .space-new {
+        margin-bottom: 100px;
+    }
+
+    .info-box-c {
+        flex-direction: column;
+        /*  */
+    }
+
+    /* NEW */
 }
