@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AudytEnergetyczny</title>
+    <title>eAudyt</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,11 +23,11 @@
             <h1>Audyt Energetyczny</h1>
 
             <!-- section buttons -->
-            <a class="navbar-btn navbar-btn-active" href="#page_1">AUDYT</a>
-            <a class="navbar-btn" href="#page_2">USŁUGI</a>
-            <a class="navbar-btn" href="#page_3">CENNIK</a>
-            <a class="navbar-btn" href="#page_4">CENNIK</a>
-            <a class="navbar-btn" href="#page_5">KONTAKT</a>
+            <div class="nav-btn-box">
+                <a class="navbar-btn" href="#page_1">USŁUGI</a>
+                <a class="navbar-btn" href="#page_2">O NAS</a>
+                <a class="navbar-btn" href="#page_3">KONTAKT</a>
+            </div>
         </div>
     </div>
 
@@ -43,11 +43,9 @@
                 </button>
                 <div class="dropdown-content">
                     <!-- section buttons -->
-                    <a href="#page_1">AUDYT</a>
-                    <a href="#page_2">USŁUGI</a>
-                    <a href="#page_3">CENNIK</a>
-                    <a href="#page_4">CENNIK</a>
-                    <a href="#page_5">KONTAKT</a>
+                    <a href="#page_1">USŁUGI</a>
+                    <a href="#page_2">O NAS</a>
+                    <a href="#page_3">KONTAKT</a>
                 </div>
             </div>
 
@@ -60,10 +58,8 @@
 
         <div class="menu-box">
             <!-- section buttons -->
-            <a class="navbar-btn close-btn" href="#page_1">AUDYT</a>
             <a class="navbar-btn close-btn" href="#page_2">USŁUGI</a>
-            <a class="navbar-btn close-btn" href="#page_3">_</a>
-            <a class="navbar-btn close-btn" href="#page_4">CENNIK</a>
+            <a class="navbar-btn close-btn" href="#page_3">O NAS</a>
             <a class="navbar-btn close-btn" href="#page_5">KONTAKT</a>
         </div>
     </div>
@@ -71,60 +67,19 @@
     <!-- main content -->
     <div class="main">
         <!-- ABOUT -->
-        <section id="page_1" class="bg-light">
+        <section id="page_0" class="bg-light">
             <div class="main-box">
                 <div class="content">
                     <!-- left side -->
                     <div class="con-box">
-                        <h2 class="title">ŚWIADECTWO ENERGETYCZNE</h2>
+                        <h2 class="title main-title">ŚWIADECTWA CHARAKTERYSTYKI ENERGETYCZNEJ</h2>
                     </div>
 
                     <!-- right side -->
                     <div class="con-box">
-                        <img src="./img/icon_se.png" id="logo" class="img-company" />
+                        <img src="./img/energy-consumption.png" id="logo" class="img-company" />
                     </div>
                 </div>
-
-                <p class="text">
-                    <!-- description -->
-                </p>
-
-                <!-- next section icon -->
-                <div class="icon bg-light">
-                    <img src="./img/icon-idea.gif" alt="" />
-                </div>
-            </div>
-        </section>
-
-        <!-- uslugi -->
-        <section id="page_2" class="bg-dark">
-            <div class="main-box">
-                <!-- uslugi -->
-                <h2 class="title">USŁUGI</h2>
-
-                <!-- <h2 class="text">ŚWIADECTWO CHARAKTERYSTYKI ENERGETYCZNEJ</h2>
-                <h2 class="text">Działamy 7 dni w tygodniu w całej Polsce!</h2> -->
-
-                <li class="learn-row-box-center">
-                    <div class="learn-desc-box fc">
-                        <a class="text bg-dark">ŚWIADECTWO CHARAKTERYSTYKI ENERGETYCZNEJ</a>
-                        <p>Działamy 7 dni w tygodniu w całej Polsce!</p>
-                    </div>
-                </li>
-
-                <!-- next section icon -->
-                <div class="icon bg-dark">
-                    <img src="./img/icon-price.gif" alt="" />
-                </div>
-            </div>
-        </section>
-
-        <section id="page_3" class="bg-light">
-            <div class="main-box">
-                <!-- uslugi -->
-                <h2 class="title">ifaifa
-                    af
-                </h2>
 
                 <!-- next section icon -->
                 <div class="icon bg-light">
@@ -133,12 +88,27 @@
             </div>
         </section>
 
-        <!-- pricing -->
-        <section id="page_4" class="bg-dark">
+        <!-- USŁUGI -->
+        <section id="page_1" class="bg-dark">
             <div class="main-box learn-box">
                 <h2 class="title">
-                    CENNIK
+                    USŁUGI
                 </h2>
+
+                <div class="info-box-c">
+                    <h1 class="text-big">REALIZUJEMY ZLECENIA NA TERENIE CAŁEJ POLSKI</h1>
+                    <img src="./img/poland.png" class="icon-info" alt="">
+                </div>
+
+                <div class="info-box-c">
+                    <h1 class="text-big">PRACUJEMY 7 DNI W TYGODNIU</h1>
+                    <img src="./img/calendar.png" class="icon-info" alt="">
+                </div>
+
+                <div class="info-box-c" style="margin-bottom: 200px;">
+                    <h1 class="text-big">WYSTAWIAMY FAKTURY</h1>
+                    <img src="./img/invoice.png" class="icon-info" alt="">
+                </div>
 
                 <ul>
                     <li class="learn-row-box border-r">
@@ -148,9 +118,19 @@
                             <a class="text bg-dark">Mieszkanie</a>
                             <p>100.00 PLN</p>
                         </div>
+
+                        <div class="btn-buy btn-buy-r">
+                            <img src="./img/icon-buy.png" class="buy-img-box" alt="">
+                            <p>zamów</p>
+                        </div>
                     </li>
 
                     <li class="learn-row-box border-l">
+                        <div class="btn-buy btn-buy-l">
+                            <p style="margin: 0px;">zamów</p>
+                            <img src="./img/icon-buy.png" class="buy-img-box" alt="">
+                        </div>
+
                         <div class="learn-desc-box fr">
                             <a class="text bg-dark">Dom</a>
                             <p>200.00 PLN</p>
@@ -166,9 +146,19 @@
                             <a class="text bg-dark">Lokal użytkowy</a>
                             <p>300.00 PLN</p>
                         </div>
+
+                        <div class="btn-buy btn-buy-r">
+                            <img src="./img/icon-buy.png" class="buy-img-box" alt="">
+                            <p>zamów</p>
+                        </div>
                     </li>
 
                     <li class="learn-row-box border-l">
+                        <div class="btn-buy btn-buy-l">
+                            <img src="./img/icon-buy.png" class="buy-img-box" alt="">
+                            <p>zamów</p>
+                        </div>
+
                         <div class="learn-desc-box fr">
                             <a class="text bg-dark">Budynek</a>
                             <p>400.00 PLN</p>
@@ -186,12 +176,12 @@
         </section>
 
 
-        <!-- kontakt -->
-        <section id="page_5" class="bg-light">
+        <!-- KONTAKT -->
+        <section id="page_3" class="bg-light">
             <div class="main-box">
                 <div class="contact-info-box">
                     <h2 class="title">Masz pytania?</h2>
-                    <h2 class="text">Skontaktuj się z nami pod numerem: 123 456 789</h2>
+                    <h2 class="text">Zadzwoń do nas: 502 221 368</h2>
                     <h2 class="text">Lub zostaw nam wiadomość:</h2>
                 </div>
 
@@ -225,11 +215,10 @@
             <div class="info-box">
                 <!-- contact info -->
                 <div class="element-box">
-                    <p>
-                        Skontaktuj się z nami pod adresem:
-                        AudytEnergetyczny@gmail.com
-                    </p>
-                    <p>Tel: +48 123 456 789</p>
+                    <p>KONTAKT</p>
+                    <p>Hubert Kowalewski</p>
+                    <p>email: hubertkowalewski@gmail.com</p>
+                    <p>tel: 502 221 368</p>
                 </div>
 
                 <!-- company info -->
@@ -242,7 +231,7 @@
             </div>
 
             <div class="bot-box">
-                <h6>&copy; 2024 AudytEnergetyczny</h6>
+                <h6>&copy; 2024 m29dev</h6>
             </div>
         </div>
     </div>
