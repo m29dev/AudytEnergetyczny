@@ -5,10 +5,11 @@ html {
 
 input,
 textarea {
-    border-radius: 21px;
-    border: 1px solid black;
+    border-radius: 30px !important;
+    border: 1px solid #272727;
     padding: 10px;
     width: 80%;
+    resize: none;
 }
 
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up-o.css');
@@ -963,6 +964,10 @@ img {
     .nav-btn-box {
         /* display: none; */
         justify-content: center;
+    }
+
+    .main-title {
+        font-size: 10vw !important;
     }
 
     .btn-buy {
